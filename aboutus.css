@@ -10,8 +10,8 @@
     background-image: url(sky.jpg);
 }
 
-.container{
-    width: 80%;
+.section .container{
+    width: 90%;
     display: block;
     margin: auto;
     padding-top: 100px;

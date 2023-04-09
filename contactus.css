@@ -4,7 +4,88 @@
     font-family:"Poppins",sans-serif;
 }
 
-.section{
+body{
+    background-image: url(people.jpg);
+    font-size: 15px;
+}
+
+.container{
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #7264c1;
+    color: #fff;
+
+}
+
+h1{
+    color: azure;
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+}
+.container p{
+    color: aliceblue;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+.input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.section{
     background-image: url(waveshd.jpg);
 }
 
@@ -20,5 +101,5 @@
     font-size: 35px;
     color: rgb(43, 44, 44);
 
-}
+}*/
 
